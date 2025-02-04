@@ -1,0 +1,20 @@
+2025-01-29 20:17:34,985 [INFO] Using device: cpu
+2025-01-29 20:17:34,985 [INFO] === Experiment Configuration ===
+2025-01-29 20:17:34,985 [INFO] source_root: ./data/Office31/amazon
+2025-01-29 20:17:34,985 [INFO] target_root: ./data/Office31/webcam
+2025-01-29 20:17:34,985 [INFO] source_domain: amazon
+2025-01-29 20:17:34,985 [INFO] target_domain: webcam
+2025-01-29 20:17:34,985 [INFO] model_name: resnet50
+2025-01-29 20:17:34,985 [INFO] num_classes: 31
+2025-01-29 20:17:34,985 [INFO] freeze_until: 1
+2025-01-29 20:17:34,986 [INFO] batch_size: 32
+2025-01-29 20:17:34,986 [INFO] epochs: 200
+2025-01-29 20:17:34,986 [INFO] lr: 0.001
+2025-01-29 20:17:34,986 [INFO] lambda_adv: 1.0
+2025-01-29 20:17:34,986 [INFO] seed: 42
+2025-01-29 20:17:34,986 [INFO] log_interval: 10
+2025-01-29 20:17:34,986 [INFO] checkpoint_dir: experiments/checkpoints
+2025-01-29 20:17:34,986 [INFO] log_dir: experiments/logs
+2025-01-29 20:17:34,986 [INFO] use_wandb: True
+2025-01-29 20:17:35,384 [INFO] Source dataset size: 15
+2025-01-29 20:17:35,384 [INFO] Target dataset size: 15
